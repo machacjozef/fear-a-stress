@@ -1,12 +1,14 @@
 <div class="fear-stress-tracker">
-    <h2>{{fear}}</h2>
-    <p>{{fearLevel}}</p>
-    <button class="adjust-fear increase">{{increaseFear}}</button>
-    <button class="adjust-fear decrease">{{decreaseFear}}</button>
-  
-    <h2>{{stress}}</h2>
-    <p>{{stressLevel}}</p>
-    <button class="adjust-stress increase">{{increaseStress}}</button>
-    <button class="adjust-stress decrease">{{decreaseStress}}</button>
+    {{#each actors}}
+      <div class="actor">
+        <h3>{{name}}</h3>
+        <p>{{@localize "fear"}}: {{fear}}</p>
+        <p>{{@localize "stress"}}: {{stress}}</p>
+        <button class="adjust-fear increase" data-actor-id="{{id}}">{{@localize "increaseFear"}}</button>
+        <button class="adjust-fear decrease" data-actor-id="{{id}}">{{@localize "decreaseFear"}}</button>
+        <button class="adjust-stress increase" data-actor-id="{{id}}">{{@localize "increaseStress"}}</button>
+        <button class="adjust-stress decrease" data-actor-id="{{id}}">{{@localize "decreaseStress"}}</button>
+      </div>
+    {{/each}}
   </div>
   

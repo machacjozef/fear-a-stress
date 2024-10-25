@@ -1,8 +1,6 @@
 {
     "fear": "Strach",
     "stress": "Stres",
-    "fearLevel": "Úroveň strachu: {0}",
-    "stressLevel": "Úroveň stresu: {0}",
     "increaseFear": "Zvýšiť strach",
     "decreaseFear": "Znížiť strach",
     "increaseStress": "Zvýšiť stres",

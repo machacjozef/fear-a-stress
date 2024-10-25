@@ -1,7 +1,7 @@
 {
     "id": "fear-stress-tracker",
     "title": "Fear and Stress Tracker",
-    "description": "A module to track fear and stress for each character.",
+    "description": "A module to track fear and stress for each character in Foundry VTT.",
     "version": "1.0.0",
     "authors": [
       {
@@ -13,8 +13,7 @@
       "minimum": "10",
       "verified": "12.331"
     },
-    "scripts": ["script.js"],
-    "styles": [],
+    "scripts": ["scripts/script.js"],
     "languages": [
       {
         "lang": "sk",
@@ -22,6 +21,7 @@
         "path": "lang/sk.json"
       }
     ],
+    "template": "templates/ui.html",
     "relationships": {
       "systems": [
         {
@@ -34,7 +34,7 @@
       ]
     },
     "url": "http://bawix.xyz",
-    "manifest": "http://bawix.xyz/fear-stress/module.json",
-    "download": "http://bawix.xyz/fear-stress/module.zip"
+    "manifest": "https://github.com/machacjozef/fear-a-stress/releases/download/v1/module.json",
+    "download": "https://github.com/machacjozef/fear-a-stress/releases/download/v1/module.zip"
   }
   
