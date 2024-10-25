@@ -1,0 +1,40 @@
+{
+    "id": "fear-stress-tracker",
+    "title": "Fear and Stress Tracker",
+    "description": "A module to track fear and stress for each character.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "BaWiX",
+        "url": "http://bawix.xyz"
+      }
+    ],
+    "compatibility": {
+      "minimum": "10",
+      "verified": "12.331"
+    },
+    "scripts": ["script.js"],
+    "styles": [],
+    "languages": [
+      {
+        "lang": "sk",
+        "name": "Slovak",
+        "path": "lang/sk.json"
+      }
+    ],
+    "relationships": {
+      "systems": [
+        {
+          "id": "dnd5e",
+          "type": "system",
+          "compatibility": {
+            "minimum": "1.0.0"
+          }
+        }
+      ]
+    },
+    "url": "http://bawix.xyz",
+    "manifest": "http://bawix.xyz/fear-stress/module.json",
+    "download": "http://bawix.xyz/fear-stress/module.zip"
+  }
+  
